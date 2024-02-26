@@ -1,0 +1,93 @@
+.main-title {
+  color: orangered;
+  font-size: 65px;
+}
+
+.src-line {
+  text-decoration: underline;
+  cursor: progress;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.column {
+  width: fit-content;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid {
+  margin: 10;
+  margin-top: 20;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  gap: 10px;
+}
+
+.grid div {
+  background-color: blueviolet;
+  height: 95px;
+}
+
+.grid2 {
+  margin: 20 10;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+}
+
+.grid2 button {
+  width: 100px;
+  font-size: xx-large;
+  background-color: chartreuse;
+  height: 95px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.reset {
+  color: rgb(76, 0, 255);
+  font-size: 95;
+  font-weight: bolder;
+  background-color: coral;
+  border-radius: 20px;
+  width: 33%;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-colomn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.my-colomn input {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(232, 232, 232);
+  color: green;
+  font-size: large;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 20px;
+}
